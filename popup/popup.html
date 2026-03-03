@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+<div id="jira-tab" class="tab-content active">
+    <button id="toggle-jira">Enable Jira Mode</button>
+    <div class="status" id="jira-status">Mode OFF</div>
+    <div style="margin-top:5px;">
+        <input type="color" id="jira-bg-color" value="#ffe599">
+        <button id="reload-colors">Reload colors</button>
+    </div>
+    <div id="jira-items-list" style="margin-top:10px;"></div>
+    <button id="remove-saved-items" style="margin-top:5px;">Remove all items</button>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
